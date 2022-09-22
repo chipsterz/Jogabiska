@@ -1,0 +1,48 @@
+{
+  "name": "briscola",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.7",
+    "boardgame.io": "^0.43.2",
+    "esm": "^3.2.25",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "koa-static": "^5.0.0",
+    "ky": "^0.24.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-github-corner": "^2.5.0",
+    "react-i18next": "^11.8.4",
+    "react-modal": "^3.12.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-spring": "^8.0.27"
+  },
+  "scripts": {
+    "start": "node -r esm ./server.js",
+    "client": "react-scripts start",
+    "server": "node -r esm src/gameServer.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
