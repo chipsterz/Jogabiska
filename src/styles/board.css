@@ -161,9 +161,21 @@ button {
   transform: translateY(-25px);
 }
 
-#hero-other-cards > div:only-of-type > div {
-  transform: rotate(0deg);
+
+
+
+
+#hero-other-cards > div:nth-child(2) > div {
+  transform: translateY(25px);
 }
+
+#hero-other-cards > div:nth-child(2) > div {
+  transform: translateY(25px);
+}
+
+
+
+
 
 /* 2 cards */
 
