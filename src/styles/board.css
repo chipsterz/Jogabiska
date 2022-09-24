@@ -166,11 +166,11 @@ button {
 
 
 #hero-other-cards > div:nth-child(2) > div {
-  transform: translateY(25px);
+  transform: rotate(-9deg) translateX(12px);
 }
 
 #hero-other-cards > div:nth-child(2) > div {
-  transform: translateY(25px);
+  transform: rotate(9deg) translateX(-12px)
 }
 
 
